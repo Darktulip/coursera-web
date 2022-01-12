@@ -5,9 +5,10 @@
     margin: 0;
 }
 
-h1 {
+.heading {
     margin-top: 50px;
     text-align: center;
+    font-size: 1.75em;
 }
 
 h2 {
@@ -20,6 +21,9 @@ p {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.text {
     margin-top: 40px;
 }
 
@@ -45,21 +49,32 @@ p {
     background-color: pink;
     width: 150px;
     position: relative;
+    font-size: 1.25em;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #sectionbeef {
     float: right;
+    text-align: center;
     background-color: brown;
     color: white;
     width: 150px;
     position: relative;
+    font-size: 1.25em;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #sectionsushi {
     float: right;
+    text-align: center;
     background-color: yellow;
     width: 150px;
     position: relative;
+    font-size: 1.25em;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 /****************desktop****************/
